@@ -4,7 +4,7 @@ The dataset provides some information about the mail, including his content. The
 
 ## a) Data Preparation
 
-<img src="./Files/Images/scoredt.png" alt="test" height="800" width="700"> 
+<img src="./Files/Images/nlp.png" alt="test" height="800" width="700"> 
 
 - We read the file and create the dataframe, changing ham and spam in 0/1
 - We create a column using the word selecting the word of more than 3 letters
