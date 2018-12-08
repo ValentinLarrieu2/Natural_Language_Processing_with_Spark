@@ -36,17 +36,17 @@ We first begin with a linear model (not asked, done to test):
 
 Result:
 
-<img src="./Files/Images/reslr.png" alt="test" height="250" width="100"> 
+<img src="./Files/Images/reslr.png" alt="test" height="250" width="200"> 
 
-<img src="./Files/Images/avgReslr.png" alt="test" height="50" width="100"> 
+<img src="./Files/Images/avgReslr.png" alt="test" height="90" width="150"> 
 
 The results seems pretty coherent so we look at the predictions
 
 
 
-<img src="./Files/Images/predlr1.png" alt="test" height="400" width="200"> 
+<img src="./Files/Images/predlr1.png" alt="test" height="400" width="300"> 
 
-<img src="./Files/Images/predlr2.png" alt="test" height="400" width="200"> 
+<img src="./Files/Images/predlr2.png" alt="test" height="400" width="300"> 
 
 Predictions:
 
@@ -54,7 +54,7 @@ Predictions:
 
 *Logistic Regression*:
 
-<img src="./Files/Images/logreg.png" alt="test" height="300" width="600"> 
+<img src="./Files/Images/logres.png" alt="test" height="300" width="600"> 
 
 - Same as always, we fit our model, fit it and evaluate our performances
 
@@ -72,7 +72,7 @@ Predictions:
 
 Results:
 
-<img src="./Files/Images/naiveBayesRes.png" alt="test" height="80" width="500"> 
+<img src="./Files/Images/naiveBayesRes.png" alt="test" height="50" width="500"> 
 
 - As we can see this model seems really close to the logistic regression
 
@@ -84,7 +84,7 @@ Results:
 
 Results:
 
-<img src="./Files/Images/dtRes.png" alt="test" height="80" width="300"> 
+<img src="./Files/Images/dtRes.png" alt="test" height="50" width="500"> 
 
 - Even though the performances are really good, this king of model have the poorest performances until now
 
@@ -96,7 +96,7 @@ Results:
 
 Results:
 
-<img src="./Files/Images/rfRes.png" alt="test" height="80" width="300"> 
+<img src="./Files/Images/rfRes.png" alt="test" height="50" width="500"> 
 
 - The results are close to the decision tree, so not the best one
 
@@ -126,7 +126,7 @@ Results:
 
 Results:
 
-<img src="./Files/Images/resCount.png" alt="test" height="80" width="300"> 
+<img src="./Files/Images/resCount.png" alt="test" height="50" width="500"> 
 
 - As we can see the results are better with the data coming from the count Vector
 - Doing the cross validator helped us to go from 0.9704394294234618 to 0.9717411495436722 (so almost 1/1000 of improvement which is quite low but still interesting)
